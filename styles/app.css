@@ -226,12 +226,6 @@ body {
 
 /* ----------------------------------------- header top -------------------------------------------- */
 
-.header {
-
-}
-.container {
-
-}
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -428,9 +422,6 @@ body {
     padding: 0.8rem 1.2rem;
     align-items: center;
 }
-.comment__img{
-
-}
 .comment__person{
     color: #000;
     margin: 0 0 0 0.5rem;
@@ -451,12 +442,6 @@ body {
     text-align: center;
     padding: 5rem 0;
 }
-.portfolio__text{
-
-}
-.portfolio__title{
-
-}
 .portfolio-items{
     display: flex;
     flex-wrap: wrap;
@@ -471,11 +456,9 @@ body {
     width: 100%;
     border-radius: 0.3rem;
 }
+
 /*----------------------------------------------- footer -----------------------------------------------*/
 
-.footer{
-
-}
 .newsletter{
     background-color: #2C57E4;
     padding: 6rem 0;
@@ -502,6 +485,7 @@ body {
 .newsletter__txt{
     border: none;
     outline: none;
+    width: 100%;
 }
 .newsletter__btn{
     background-color: #2F5BEA;
@@ -521,9 +505,6 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-}
-.copy-right__txt{
-
 }
 
 /* ---------------------------------------- Project Responsive ---------------------------------------- */
@@ -651,5 +632,8 @@ body {
     }
     .comment {
         flex-basis: 100%;
+    }
+    .newsletter__txt {
+        padding: 1rem 1.2rem;
     }
 }
